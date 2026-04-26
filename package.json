@@ -1,0 +1,26 @@
+{
+  "name": "cut-the-kernel",
+  "version": "1.0.0",
+  "description": "Unofficial Cut the Rope player for Linux",
+  "main": "main.js",
+  "author": "Stormwindsky",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "com.stormwindsky.cutthekernel",
+    "linux": {
+      "category": "Game",
+      "target": ["AppImage"]
+    },
+    "desktop": {
+      "Keywords": "CTR;Cut the rope;Game;Puzzle;Linux;"
+    }
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "electron-builder": "^latest"
+  }
+}
