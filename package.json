@@ -13,14 +13,15 @@
     "appId": "com.stormwindsky.cutthekernel",
     "linux": {
       "category": "Game",
-      "target": ["AppImage"]
+      "target": ["AppImage"],
+      "icon": "icon.png"
     },
     "desktop": {
       "Keywords": "CTR;Cut the rope;Game;Puzzle;Linux;"
     }
   },
   "devDependencies": {
-    "electron": "^latest",
-    "electron-builder": "^latest"
+    "electron": "latest",
+    "electron-builder": "latest"
   }
 }
