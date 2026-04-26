@@ -45,3 +45,7 @@ This project is created by Stormwindsky and is licensed under the MIT License.
 
 - **Electron**: Built using the [Electron framework](https://www.electronjs.org/).
 - **Game Content**: All game rights belong to ZeptoLab.
+
+## for Legal thing:
+
+Here: https://github.com/Stormwindsky/cut-the-kernel/blob/main/LEGAL.md
