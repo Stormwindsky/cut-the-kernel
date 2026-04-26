@@ -11,13 +11,11 @@
   },
   "build": {
     "appId": "com.stormwindsky.cutthekernel",
+    "productName": "Cut the Kernel",
     "linux": {
       "category": "Game",
       "target": ["AppImage"],
-      "icon": "icon.png",
-      "desktop": {
-        "Keywords": "CTR;Cut the rope;Game;Puzzle;Linux;"
-      }
+      "icon": "icon.png"
     }
   },
   "devDependencies": {
